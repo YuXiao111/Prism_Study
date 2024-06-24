@@ -1,6 +1,6 @@
-#Prism框架
+# Prism框架
 
-##一、创建Prism应用程序
+## 一、创建Prism应用程序
 
 如何下载Prism框架、创建Prism应用程序。
 
@@ -10,15 +10,15 @@ Prism.DryIoc 8.1.97
 
 
 
-##二、Prism概论
+## 二、Prism概论
 
 Prism框架源代码的架构和项目组成，分析启动Prism应用程序的加载顺序。
 
-##三、Prism的MVVM应用（数据绑定、DelegateCommand）
+## 三、Prism的MVVM应用（数据绑定、DelegateCommand）
 
 Prism的属性通知、命令绑定用法。
 
-##四、Prism区域（Region）
+## 四、Prism区域（Region）
 
 Prism的区域概念、如何注册区域、如何加载控件到指定的区域。
 
@@ -42,6 +42,6 @@ Prism框架的模块概念、如何定义一个模块、如何加载模块、如
 
 对话框的使用、对话框传参、关闭对话框时回传参数的用法。
 
-##十、Prism高级应用
+## 十、Prism高级应用
 
 动态加载模块=>特性+反射
