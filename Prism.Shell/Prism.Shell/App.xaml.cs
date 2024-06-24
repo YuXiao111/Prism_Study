@@ -1,5 +1,6 @@
 ﻿using Prism.DryIoc;
 using Prism.Ioc;
+using Prism.Shell.Views;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -15,13 +16,16 @@ namespace Prism.Shell
     /// </summary>
     public partial class App : PrismApplication
     {
-        protected override void RegisterTypes(IContainerRegistry containerRegistry)
-        {
-            
-        }
+  
         protected override Window CreateShell()
         {
-            return new Window();
+            //return new MainWindow();
+
+            return Container.Resolve<MainWindow>();
+        }
+        protected override void RegisterTypes(IContainerRegistry containerRegistry)
+        {
+
         }
     }
 }
